@@ -1,0 +1,149 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #c6d2df;
+  margin: 0;
+  padding: 20px;
+  color: #925858;
+}
+
+.port {
+  background-color: #f4d0f2;
+  padding: 25px;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 1000px;
+  margin: auto;
+}
+
+.name {
+  float: left;
+}
+
+.name h1 {
+  color: #110637;
+  font-size: 52px;
+  font-style: italic;
+  margin: 0;
+}
+
+.contact {
+  float: right;
+  text-align: right;
+}
+
+.contact h4 {
+  margin: 5px 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.contact a {
+  color: #0d6efd;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+.objective {
+  clear: both;
+  margin-top: 60px;
+}
+
+h3 {
+  color: #14532d;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 5px;
+  margin-top: 30px;
+  font-size: 30px;
+  text-transform: capitalize;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p {
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: justify;
+}
+
+.btn-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.btn-group .btn {
+  min-width: 120px;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.dropdown-menu {
+  width: 300px !important;
+  background-color: #bbbebb;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-menu p {
+  font-size: 16px;
+  margin-bottom: 6px;
+  color: #1a1a1a;
+  text-align: justify;
+}
+
+.intern,
+.project {
+  margin-top: 30px;
+}
+
+.project a,
+.intern a,
+.skill a {
+  color: #263347;
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+.project p {
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-align: justify;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+}
+
+@media (max-width: 768px) {
+  .name,
+  .contact {
+    float: none;
+    text-align: left;
+  }
+
+  .name h1 {
+    font-size: 24px;
+  }
+
+  .contact h4 {
+    font-size: 14px;
+  }
+
+  .dropdown-menu {
+    width: 100% !important;
+  }
+
+  .dropdown-menu p {
+    font-size: 13px;
+  }
+
+  .btn-group {
+    flex-direction: column;
+  }
+
+  .project p {
+    font-size: 14px;
+  }
+}
