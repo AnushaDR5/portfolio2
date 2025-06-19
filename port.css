@@ -15,8 +15,11 @@ body {
   margin: auto;
 }
 
-.name {
-  float: left;
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
 }
 
 .name h1 {
@@ -24,11 +27,6 @@ body {
   font-size: 52px;
   font-style: italic;
   margin: 0;
-}
-
-.contact {
-  float: right;
-  text-align: right;
 }
 
 .contact h4 {
@@ -44,11 +42,6 @@ body {
 
 .contact a:hover {
   text-decoration: underline;
-}
-
-.objective {
-  clear: both;
-  margin-top: 60px;
 }
 
 h3 {
@@ -85,7 +78,7 @@ p {
   background-color: #bbbebb;
   padding: 15px;
   border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+ 
 }
 
 .dropdown-menu p {
